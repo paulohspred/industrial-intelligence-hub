@@ -8,7 +8,7 @@ interface AnimatedSectionProps {
   id?: string;
 }
 
-const AnimatedSection = ({ children, className = "", delay = 0 }: AnimatedSectionProps) => (
+const AnimatedSection = ({ children, className = "", delay = 0, id }: AnimatedSectionProps) => (
   <motion.section
     initial={{ opacity: 0, y: 40 }}
     whileInView={{ opacity: 1, y: 0 }}
