@@ -77,10 +77,16 @@
   .glass-card {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    box-shadow: var(--glass-shadow);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    box-shadow: var(--glass-shadow), 0 4px 16px 0 hsla(0, 0%, 0%, 0.1);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
     border-radius: var(--radius);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .glass-card:hover {
+    border-color: hsla(216, 100%, 50%, 0.25);
+    box-shadow: var(--glass-shadow), 0 8px 40px 0 hsla(216, 100%, 40%, 0.15);
   }
 
   .section-dark {
