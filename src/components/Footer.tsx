@@ -30,8 +30,9 @@ const Footer = () => (
             <a href="mailto:contato@seevise.com.br" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail size={14} /> contato@seevise.com.br
             </a>
-            <a href="tel:+5535999237679" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="https://wa.me/5535999237679" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone size={14} /> (35) 99923-7679
+              <span className="text-xs text-primary/60">WhatsApp</span>
             </a>
           </div>
         </div>
