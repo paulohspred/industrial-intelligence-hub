@@ -15,6 +15,7 @@ const AnimatedSection = ({ children, className = "", delay = 0, id }: AnimatedSe
     viewport={{ once: true, margin: "-80px" }}
     transition={{ duration: 0.7, delay, ease: "easeOut" }}
     className={className}
+    id={id}
   >
     {children}
   </motion.section>
