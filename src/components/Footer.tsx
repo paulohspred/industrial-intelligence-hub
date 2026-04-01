@@ -49,8 +49,9 @@ const Footer = () => (
               <MapPin size={14} className="mt-0.5 shrink-0" />
               Rua Benedito Francisco dos Reis, 250 – Jd. Santa Clara, Serrana – SP, 14150-000
             </p>
-            <a href="tel:+5516996052853" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="https://wa.me/5516996052853" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone size={14} /> (16) 99605-2853
+              <span className="text-xs text-primary/60">WhatsApp</span>
             </a>
           </div>
         </div>
